@@ -1,0 +1,216 @@
+/* makes everything closer together */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* changed entire background page to grayish color */
+body {
+	background-color: #2A2A2A;
+	font-size: 14px;
+}
+
+/** NAVIGATION **/
+/* added background color to top navigation bar */
+.navigation {
+	background-color: #262626;
+	height: 80px;
+}
+
+/* targets the 'PICO' logo at the very top */
+.navigation .logo {
+	color: #fff;
+	/* allows text to wrap around 'PICO' */
+	float: left;
+	/* made font larger */
+	font-size: 24px;
+	font-weight: bold;
+	/* sets amount of space used for the 'PICO' line */
+	line-height: 20px;
+	/* pushes 'PICO' from top of page down the page 15px */
+	margin-top: 15px;
+	/* pushes 'PICO' in 15px but pushes 35px space on right */
+	padding: 15px 15px 15px 35px;
+}
+
+/* targets nav links */
+.navigation ul {
+	/* pushed links all the way to the right */
+	float: right;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	/* pushed links more towards the left */
+	padding: 15px 35px 15px 15px;
+	/* pushed links down the page 20px */
+	margin-top: 20px;
+}
+
+.navigation li {
+	/* made links next to each other vs listed downwards */
+	display: inline-block;
+}
+
+/* targets 'Home' link only */
+.navigation li.active a{
+	color: #FF6760;
+}
+
+/* targets all of the top nav links */
+.navigation a {
+	color: #D8D8D8;
+	/* pushes links apart */
+	margin-right: 35px;
+	/* takes away underline */
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/** HEADER **/
+.header {
+	/* changes header - adds font, sans-serif allows all browsers to read font */
+	color: #D8D8D8;
+	font-family: 'Open Sans', sans-serif;
+	/* centers header */
+	text-align: center;
+}
+
+/* targets 'Introducing Pico' */
+.header h1 {
+	font-size: 48px;
+	/* makes it skinnier */
+	font-weight: 300;
+	/* pushes entire header down 65px from top of page */
+	margin-top: 65px;
+}
+
+/* targets 'Pico' only - '>' leads to span */
+.header h1 > span {
+	font-weight: bold;
+}
+
+/* targets second header */
+.header h2 {
+	font-size: 36px;
+	/* makes it skinnier */
+	font-weight: 300;
+	/* pushes top/bottom headings 25px */
+	margin: 25px 0;
+}
+
+/* targets the '&' symbol */
+.header h2 > span {
+	color: #EB615B;
+}
+
+/* targets 'download now' link */
+.header a {
+	background-color: #FF6760;
+	border: none;
+	/* made background color curve vs boxed */
+	border-radius: 10px;
+	color: #FFFFFF;
+	display: inline-block;
+	/* pushed link down */
+	margin: 10px 0 75px 0;
+	/* pushed the background color outwards */
+	padding: 15px 20px;
+	/* took away underline */
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/** FEATURES **/
+/* targets second section */
+.features {
+	/* changed background to whiter color */
+	background-color: #F6F6F6;
+	/* changed font color to gray */
+	color: #616161;
+	/* added space after 'license' */
+	height: 450px;
+}
+
+.item {
+	/* moved paragraphs 3 x 3 */
+	float: left;
+	/* added space between each paragraph */
+	margin: 25px 0;
+	padding: 5px 0 20px 0;
+	/* moved each header to the center */
+	text-align: center;
+	/* lined paragraphs by 3 in each row */
+	width: 33.3333333333%;
+}
+
+.item h3 {
+	/* changed each heading to larger font size */
+	font-size: 20px;
+	padding: 5px 0;
+}
+
+/* targets only paragraphs */
+.item p {
+	/* pushed paragraph down from headings */
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+/** FOOTER **/
+.footer {
+	/* centered bottom section and changed color */
+	color: #D8D8D8;
+	text-align: center;
+}
+
+/* targets 'Want to Contribute?' */
+.footer h4 {
+	font-size: 24px;
+	/* pushed bottom section down */
+	margin: 50px 0 25px 0;
+}
+
+/* targets paragraph 'Help make Pico...' */
+.footer p {
+	color: #858585;
+	font-size: 16px;
+	padding: 3px 0;
+}
+
+/* targets links in footer */
+.footer p a {
+	color: #793F3D;
+}
+
+#socialIcons {
+	margin: 15px 0 50px 0;
+}
+
+#socialIcons a {
+	color: #FFFFFF;
+}
+
+/* added circle around twitter icon */
+#socialIcons .fa-twitter {
+	background-color: #5DAED5;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+/* added circle around facebook icon */
+#socialIcons .fa-facebook {
+	background-color: #4470CF;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
